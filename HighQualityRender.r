@@ -18,19 +18,16 @@
 
 #Package, that allows for directly installing packages from github
 install.packages("devtools")
-#The most important packages for this project:
 devtools::install_github("tylermorganwall/rayshader")
 devtools::install_github("tylermorganwall/rayrender")
-
-#An optional package for importing some preset color palettes
-devtools::install_github("BlakeRMills/MetBrewer")
 install.packages("MetBrewer")
-
-#Installing other necessary packages:
 install.packages("rgl")
 install.packages("glue")
+install.packages("sp")
+install.packages("sf")
+install.packages("magick")
+install.packages("raster")
 install.packages("ambient")
-
 #---------------------This needs to be executed everytime you open the project----------------------
 #Activating the installed packages
 library(rayrender)
