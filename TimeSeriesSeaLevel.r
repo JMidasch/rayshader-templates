@@ -65,7 +65,7 @@ sealevelrev=rev(sealevel)
 n <- 2
 
 #Creates angles for camera rotation
-angles= seq(0,360,length.out = n*(length(ndvilist)+1))[-1]
+angles= seq(0,360,length.out = n*(length(sealevel)+1))[-1]
 
 #magical for-loop 
 for(i in 0:length(angles)) {
