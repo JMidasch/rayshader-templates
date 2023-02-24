@@ -70,7 +70,7 @@ elmat |>
   plot_3d(heightmap = elmat, 
           windowsize = c(1280,720), 
           solid = FALSE,                #creates a solid grey base for the model if TRUE
-          zscale = 4,                   #lower values -> more exaggerated topography (dependent on matrix size)
+          zscale = 4,                   #!!!! This needs adjusting for pretty much every DEM (lower values -> more exaggerated topography (dependent on matrix size))
           #baseshape = "hex"            
           )                     
 
